@@ -6,6 +6,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: all
     name: Deploy
     steps:
       - name: Check if required secrets exist
