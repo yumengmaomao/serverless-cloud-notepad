@@ -5,7 +5,7 @@ import { SALT, SECRET, SUPPORTED_LANG } from './constant'
 // generate random string
 export const genRandomStr = n => {
     // remove char that confuse user
-    const charset = '2345679abcdefghjkmnpqrstwxyz'
+    const charset = '2345679'
     return Array(n)
         .join()
         .split(',')
